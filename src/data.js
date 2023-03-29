@@ -61,6 +61,35 @@ const data = [
     ],
     correctAnswer: "h1 {background-color:#FFFFFF;}",
   },
+  {
+    question: "What does HTML stand for?",
+    incorrectAnswers: [
+      "Hypertext Model Language",
+      "Hyperlink Markup Language",
+      "Hypertext Markup Level",
+    ],
+    correctAnswer: "Hypertext Markup Language",
+  },
+  {
+    question: "What is the purpose of the <head> tag in HTML?",
+    incorrectAnswers: [
+      "To display content on the webpage",
+      "To define the main content of the webpage",
+      "To define the structure of the webpage",
+    ],
+    correctAnswer: "To contain metadata about the webpage",
+  },
+
+  {
+    question: "Which HTML element is used to create a hyperlink?",
+    incorrectAnswers: ["<a>", "<link>", "<img>"],
+    correctAnswer: "<a>",
+  },
+  {
+    question: "Which HTML element is used to create an ordered list?",
+    incorrectAnswers: ["<ul>", "<li>", "<dl>"],
+    correctAnswer: "<ol>",
+  },
 ];
 
 export default data;
